@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with JohnDoe landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Mari'fatu Khirzah</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="public_html/assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + JohnDoe main styles -->
+	<link rel="stylesheet" href="public_html/assets/css/johndoe.css">
+    <link rel="manifest" href="manifest.json" />
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <!-- <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a> -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h4 class="header-subtitle" >Hello, I am</h4>
+                <h1 class="header-title">Ma'rifatu Khirzah</h1>
+                <h6 class="header-mono" >From Tegal, Indonesian</h6>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand text-center">
+                    <img src="public_html/assets/imgs/profile.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Mari'fatu Khirzah</h5>
+                        <div class="brand-subtitle">Mahasiswi</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-6 about-card">
+                <h3 class="font-weight-light">Who am I ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">Hi, I'm Ma'rifatu Khirzah</h5>
+                <p class="mt-20">I was born and raised in Tegal. I am a student at Stmik Tegal</p>
+               
+            </div>
+            <div class="col-lg-6 about-card">
+                <h3 class="font-weight-light">Personal Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Birthdate</span> : 07/19/2004</li>
+                    <li><span>Email</span> : marifatukhirzah@gmail.com</li>
+                    <li><span>Phone</span> : + (62) 867247392</li>
+                    <li><span>Address</span> :  Tegal.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+               
+                <div class="col-md-6 col-lg-6">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2022 - Present</h6>
+                            <P>School of Management Informatics and Computer (STMIK YMI TEGAL)</P>
+                              
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>Singing</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Writing</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Send a message</h4>
+                        <form id="messageForm" method="post">
+                            <div class="form-group">
+                                <input class="form-control" type="text" id="name" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" id="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="pesan" placeholder="Message *" rows="7" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary float-right">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By Khirzah</a> 
+            </p>
+        </div>
+    </footer>
+
+    <script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function() {
+    navigator.serviceWorker
+      .register("service-worker.js")
+      .then(res => console.log("service worker registered"))
+      .catch(err => console.log("service worker not registered", err));
+  });
+}
+
+    </script>
+
+	<!-- core  -->
+    <script src="public_html/assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="public_html/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="public_html/assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="public_html/assets/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- JohnDoe js -->
+    <script src="public_html/assets/js/johndoe.js"></script>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import {
+          getMessaging,
+          getToken,
+        } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging.js";
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyBLnHV-eUfofwBMOy2HY3ay_QxicfJ6azQ",
+          authDomain: "projek-uts-7d89b.firebaseapp.com",
+          projectId: "projek-uts-7d89b",
+          storageBucket: "projek-uts-7d89b.firebasestorage.app",
+          messagingSenderId: "235862170884",
+          appId: "1:235862170884:web:a80e68a5142f6a62fd0451",
+          measurementId: "G-KTKEBG33RW"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const messaging = getMessaging(app);
+      
+        navigator.serviceWorker.register("service-worker.js").then((registration) => {
+          getToken(messaging, {
+            serviceWorkerRegistration: registration,
+            vapidKey:
+              "BLb0zvSZNIiTcLTh3ID6ez5sQS_la9qwlz8hfNOd8FVd4yGBBALDz_0xqO9ubGbNlh3cWhmRwkK4XOYDOEeE_0E",
+          })
+            .then((currentToken) => {
+              if (currentToken) {
+                console.log("Token is: " + currentToken);
+                alert("Push notifications have been activated!");
+      
+                // IndexedDB operations
+                let dbToken;
+                const requestToken = indexedDB.open("DBtoken", 1);
+      
+                requestToken.onerror = function (event) {
+                  console.error("Database token error: ", event.target.errorCode);
+                };
+      
+                requestToken.onsuccess = function (event) {
+                  dbToken = event.target.result;
+                  console.log("Database token opened successfully");
+      
+                  const transactionToken = dbToken.transaction(["token"], "readwrite");
+                  const objectStoreToken = transactionToken.objectStore("token");
+                  const dataToken = { currentToken };
+      
+                  const requestAddToken = objectStoreToken.add(dataToken);
+      
+                  requestAddToken.onsuccess = function () {
+                    console.log("Token has been added:", dataToken);
+                  };
+      
+                  requestAddToken.onerror = function (event) {
+                    console.error("Error saving token: ", event.target.errorCode);
+                  };
+                };
+      
+                requestToken.onupgradeneeded = function (event) {
+                  dbToken = event.target.result;
+                  const objectStoreToken = dbToken.createObjectStore("token", {
+                    keyPath: "id",
+                    autoIncrement: true,
+                  });
+                  objectStoreToken.createIndex("nameToken", "nameToken", { unique: true });
+                  console.log("Token store created successfully");
+                };
+              } else {
+                console.log("No registration token available. Request permission to generate one.");
+              }
+            })
+            .catch((err) => {
+              console.error("An error occurred while retrieving token: ", err);
+            });
+        });
+      </script>
+      
+      <script>
+        // IndexedDB Setup
+        let db;
+        const request = indexedDB.open("MessagesDB", 2);
+      
+        request.onerror = function (event) {
+          console.error("Database error: ", event.target.errorCode);
+        };
+      
+        request.onsuccess = function (event) {
+          db = event.target.result;
+          console.log("Database opened successfully");
+        };
+      
+        request.onupgradeneeded = function (event) {
+          db = event.target.result;
+          const objectStore = db.createObjectStore("messages", { keyPath: "id", autoIncrement: true });
+          objectStore.createIndex("name", "name", { unique: false });
+          objectStore.createIndex("email", "email", { unique: false });
+          objectStore.createIndex("message", "message", { unique: false });
+          console.log("Object store created successfully");
+        };
+      
+        document.getElementById("messageForm").addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent default form submission behavior
+      
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+          const message = document.getElementById("pesan").value;
+      
+          // Save data to IndexedDB
+          if (db) {
+            const transaction = db.transaction(["messages"], "readwrite");
+            const objectStore = transaction.objectStore("messages");
+            const data = { name, email, message };
+      
+            const request = objectStore.add(data);
+      
+            request.onsuccess = function () {
+              console.log("Message saved successfully:", data);
+              alert("Message has been sent successfully!");
+              document.getElementById("messageForm").reset(); // Clear form fields
+            };
+      
+            request.onerror = function (event) {
+              console.error("Error saving message: ", event.target.errorCode);
+            };
+          } else {
+            console.error("Database is not initialized yet");
+          }
+        });
+      </script>
+      
+
+</body>
+</html>
