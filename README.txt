@@ -1,1 +1,1 @@
-Website CV Ma'rifatuh Khirzah.
+Website CV Ma'rifatu Khirzah.
